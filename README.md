@@ -12,8 +12,7 @@
     4. Note: Do not create a new directory if already exists.
     5. Writing the author's name and the date modified is a must (Write it as a multiline comment in your code).
     6. Filename should be meaningful.
-    7. Path of your code: /Programming Language/codeName.extension (For example: /Python/Palindrome.py).
-    8. Don't spam it will be rejected immediately.
+    7. Don't spam it will be rejected immediately.
 ***
 
 ## Steps For Contribution
@@ -21,7 +20,7 @@
     1. Star this repo
     2. Fork this repo
     3. Add a file
-    4. commit the code
+    4. Commit the code
     5. Make pull request
 ***
 <h2 align="center">
