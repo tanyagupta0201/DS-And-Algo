@@ -1,3 +1,7 @@
+#Codechef problem to perform a bitwise XOR.
+#Authur:Shantanu Sharma
+#Date Modified:4th October 2021
+
 for i in range(int(input())):
     n,x=input().split()
     n,x=int(x),int(x)
