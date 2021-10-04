@@ -1,4 +1,8 @@
-//Reversal Algorithm to rotate Array
+/*
+Reversal Algorithm to rotate Array
+Author: Saurabh Sharma
+Date Modified: 4 October 2021
+*/
 
 
 import java.util.Arrays;
@@ -14,26 +18,31 @@ public class ReversalAlgo {
         for (int i = 0; i < input.length; i++) {
             nums[i] = Integer.parseInt(input[i]);
         }
+
+	//d : rotate array by how many places
         int d = sc.nextInt();
 
         int[] ans = rotate(nums, d);
         System.out.println(Arrays.toString(ans));
     }
-
+	
     private static int[] rotate(int[] nums, int d) {
 
         int n = nums.length;
         if (d == 0)
             return null;
+
+	//if d>n
         d = d % n;
 
+        //Reverse the array parts
         reverseArray(nums, 0, d - 1);
         reverseArray(nums, d, n - 1);
         reverseArray(nums, 0, n - 1);
 
         return nums;
     }
-
+	//reverse array
     private static void reverseArray(int[] nums, int start, int end) {
 
         int temp;

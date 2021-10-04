@@ -1,5 +1,8 @@
-//Find nth term of Fibonacci Series using recursion
-
+/* 
+Find nth term of Fibonacci Series using recursion
+Author: Saurabh Sharma
+Date Modified: 4 October 2021
+*/
 
 import java.util.Scanner;
 
