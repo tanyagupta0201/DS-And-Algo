@@ -1,3 +1,6 @@
+#We have to draw a H with stars(*) in python.
+#Authur:Shantanu Sharma
+#Date Modified:4th October 2021
 s=""
 for Row in range(0,7):    
     for Col in range(0,7):     

@@ -1,3 +1,6 @@
+#It is a Codechef problem.In this problem we have to figure it out how many passenger can travel in a bus with limited seats.
+#Author:Shantanu Sharma
+#Modified date:4 october 2021
 for i in range(int(input())):
     n,m,q=input().split()
     n,m,q=int(n),int(m),int(q)
