@@ -15,7 +15,7 @@ int main()
   int ans; 
   for(int i=0;i<n;i++){
     cin>>a[i];
-  }
+   }
   int fn;
   cout<<"enter a number to search"<<endl;
   cin>>fn;
@@ -23,9 +23,9 @@ int main()
     if(a[i]==fn){
       ans=i;
       break;
+       }
     }
-  }
     cout<<ans<<endl;
     return 0;
-  }
+}
       
