@@ -1,3 +1,10 @@
+/*
+Program to reverse a string
+Author: Laasya Gupta
+Date Modified: 4th October 2021
+*/
+
+
 #include <iostream>
 using namespace std;
 
