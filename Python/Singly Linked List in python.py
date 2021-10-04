@@ -1,5 +1,6 @@
 # A simple Python program for traversal of a linked list
- 
+#Author:Shantanu Sharma
+#Date Modified:4th October 2021
 # Node class
 class Node:
  
