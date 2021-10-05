@@ -1,5 +1,5 @@
 #Converts a binary number from user into decimal
-#Author: Omar Raza
+#Author: joe7898
 #Date modified: 5/10/21
 
 def binary_to_decimal(binary):
