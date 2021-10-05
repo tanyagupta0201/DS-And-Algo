@@ -12,12 +12,12 @@ int main()
     cin >> n;
     int a[n];
     int ans;
+    if(n==0)
+        return "Nothing to be searched!!";
     for (int i = 0; i < n; i++)
-    {
         cin >> a[i];
-    }
     int fn;
-    cout << "enter a number to search" << endl;
+    cout << "Enter a number to search:" << endl;
     cin >> fn;
     for (int i = 0; i < n; i++)
     {
@@ -27,7 +27,7 @@ int main()
             break;
         }
     }
-    cout << ans << endl;
+    cout <<fn<<" is found at index:"<<ans << endl;
     return 0;
 }
       
