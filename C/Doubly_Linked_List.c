@@ -18,18 +18,18 @@ struct node *head,*temp,*newnode;
 //create new node
 void create(int x)
 {
-    newnode=(struct node*)malloc(sizeof(struct node));
-    newnode->data=x;
-    newnode->next=NULL;
-    newnode->pre=NULL;
+    newnode = (struct node*)malloc(sizeof(struct node));
+    newnode->data = x;
+    newnode->next = NULL;
+    newnode->pre = NULL;
 
-    if(head==NULL)
-        head=temp=newnode;
+    if(head == NULL)
+        head = temp = newnode;
     else
     {
-        temp->next=newnode;
-        newnode->pre=temp;
-        temp=newnode;
+        temp->next = newnode;
+        newnode->pre = temp;
+        temp = newnode;
     }
 }
 
@@ -37,14 +37,14 @@ void create(int x)
 void display_ori()
 {
     temp=head;
-    if(head==NULL)
+    if(head == NULL)
         printf("empty doubly linked list");
     else
     {
-        while(temp!=NULL)
+        while(temp != NULL)
     {
         printf("original doubly linked list is: %d\n",temp->data);
-        temp=temp->next;
+        temp = temp->next;
     }
 }
 }
@@ -52,16 +52,16 @@ void display_ori()
 //Display in reverse
 void display_rev()
 {
-    temp=newnode;
+    temp = newnode;
     printf("reverse of dobly linked list: ");
-    if(head==NULL)
+    if(head == NULL)
         printf("\nDoubly linked list is empty");
     else
     {
-        while(temp!=NULL)
+        while(temp != NULL)
         {
             printf("\n%d",temp->data);
-            temp=temp->pre;
+            temp = temp->pre;
         }
     }
 }
