@@ -24,11 +24,17 @@
 
 ## Steps For Contribution
 
-    1. Star this repo
-    2. Fork this repo
-    3. Add a file
-    4. Commit the code
-    5. Make pull request
+    1. Star this repository.
+    2. Fork this repository.
+    3. Clone the forked repository.
+    4. Navigate to the project directory.
+    5. Create a branch.
+    6. Make changes / Add file.
+    7. Stage your changes and commit.
+    8. Push your local commits to the remote repository.
+    9. Make pull request.
+    10. Congratulations! 🎉 you've made your contribution.
+
 
 ---
 
