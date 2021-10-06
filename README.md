@@ -32,8 +32,8 @@
 
 ---
 
-<h2 align="center">
+<h1 align="center">
     <p>
         Thank You
     </p>
-</h2>
+</h1>
