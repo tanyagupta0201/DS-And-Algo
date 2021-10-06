@@ -1,8 +1,7 @@
-# DSA
+# Data Structures and Algorithms
 
 <h2><strong>Open For Contributions !!</strong></h2>
 </br>
-
 
 ## Guidelines
 
@@ -13,7 +12,8 @@
     5. Writing the author's name and the date modified is a must (Write it as a multiline comment in your code).
     6. Filename should be meaningful.
     7. Don't spam it will be rejected immediately.
-***
+
+---
 
 ## Steps For Contribution
 
@@ -22,7 +22,9 @@
     3. Add a file
     4. Commit the code
     5. Make pull request
-***
+
+---
+
 <h2 align="center">
     <p>
         Thank You
