@@ -1,5 +1,6 @@
 /*
-Author:Shantanu Sharma
+Creating a Binary Tree
+Author: Shantanu Sharma
 Date Modified: 6th October 2021
 */
 
@@ -13,7 +14,7 @@ struct treenode
     struct treenode *left;
     struct treenode *right;
 };
-struct treenode *root,*newnode,*temp,*tra;
+struct treenode *root, *newnode, *temp, *tra;
 
 //creating tree nodes
 void create(int x)
@@ -22,9 +23,10 @@ void create(int x)
     newnode->data = x;
     newnode->left = NULL;
     newnode->right = NULL;
+    
     if(root == NULL)
     {
-        temp=root = newnode;
+        temp = root = newnode;
     }
     else if(temp->left == NULL || temp->right == NULL)
     {
@@ -48,26 +50,30 @@ void print()
    else
    {
        tra = root;
-       printf("%d",root->data);
+       printf("%d", root->data);
+       
        tra = root->left;
-       printf("%d",tra->data);
+       printf("%d", tra->data);
+       
        tra = root->right;
-       printf("%d",tra->data);
+       printf("%d", tra->data);
    }
 }
 
 void main()
 {
     int x;
+    
     printf("Enter elements of the tree one by one: ");
-    scanf("%d",&x);
+    
+    scanf("%d", &x);
     create(x);
-    scanf("%d",&x);
+    
+    scanf("%d", &x);
     create(x);
-    scanf("%d",&x);
+    
+    scanf("%d", &x);
     create(x);
 
     print();
-
-
 }
