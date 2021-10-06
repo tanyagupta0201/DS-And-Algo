@@ -1,3 +1,10 @@
+/*
+Singly Linked List
+Author:Sakshi Singh
+Date Modified: 6th October 2021
+*/
+
+
 #include<stdio.h>  
 #include<stdlib.h>  
 struct node   
