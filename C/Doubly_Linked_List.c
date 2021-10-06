@@ -3,6 +3,7 @@ Doubly Linked list
 Author:Shantanu Sharma
 Date Modified: 6th October 2021
 */
+
 #include<stdio.h>
 #include<conio.h>
 
@@ -68,8 +69,6 @@ void display_rev()
 
 void main()
 {
-
-
    create(2);
    create(8);
    create(12);
