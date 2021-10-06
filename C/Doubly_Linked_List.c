@@ -1,6 +1,12 @@
+/*
+Doubly Linked list
+Author:Shantanu Sharma
+Date Modified: 6th October 2021
+*/
 #include<stdio.h>
 #include<conio.h>
 
+//structure for node
 struct node
 {
     int data;
@@ -8,6 +14,8 @@ struct node
 };
 struct node *head,*temp,*newnode;
 
+
+//create new node
 void create(int x)
 {
     newnode=(struct node*)malloc(sizeof(struct node));
@@ -25,6 +33,7 @@ void create(int x)
     }
 }
 
+//Display Linked list
 void display_ori()
 {
     temp=head;
@@ -40,6 +49,7 @@ void display_ori()
 }
 }
 
+//Display in reverse
 void display_rev()
 {
     temp=newnode;
