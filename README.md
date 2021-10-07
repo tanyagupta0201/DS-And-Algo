@@ -38,6 +38,12 @@
 
 ---
 
+### Note
+ **Don't add hello world programs / small changes in README file. PRs will be labelled as "INVALID" & closed immediately . Please add unique codes
+ You will be banned indefinately from Hacktoberfest after two invalid PRs.**
+ 
+ ---
+ 
 <h1 align="center">
     <p>
         Thank You
