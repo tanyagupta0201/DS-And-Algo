@@ -13,6 +13,7 @@ class Node
     int data;
     Node* next;
 };
+
 void InsertBeg(Node** head, int new_data)
 {
     Node* new_node = new Node();
@@ -52,6 +53,7 @@ void InsertEnd(Node** head, int new_data)
     last->next = new_node;
     return;
 }
+
 void printList(Node* node)
 {
     while(node!= NULL)
@@ -60,6 +62,7 @@ void printList(Node* node)
         node = node->next;
     }
 }
+
 int main()
 {
     
