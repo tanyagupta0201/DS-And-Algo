@@ -5,8 +5,8 @@ Date Modified: 8th October 2021
 */
 
 #include <iostream>
-
 using namespace std;
+
 class Node
 {
     public:
@@ -28,6 +28,7 @@ void InsertAfter(Node* prevnode, int new_data)
         cout << "The given previous node cannot be null";
         return;
     }
+    
     Node* new_node = new Node();
     new_node-> data = new_data;
     new_node->next = prevnode->next;
