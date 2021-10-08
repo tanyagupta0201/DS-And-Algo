@@ -52,7 +52,7 @@ void display()
 void peek()
 {
     if(top == NULL)
-    printf("Stack is empty");
+         printf("Stack is empty");
     else
         printf("%d\n",top->data);
 }
@@ -77,8 +77,8 @@ void main()
     while(c != 5)
     {
         printf("1.PUSH\n2.POP\n3.DISPLAY\n4.PEEK\n5.EXIT");
-    printf("\nENTER YOUR CHOICE: ");
-    scanf("%d",&c);
+        printf("\nENTER YOUR CHOICE: ");
+        scanf("%d",&c);
         switch(c)
         {
             case 1:printf("\n\nenter element to be pushed: ");
