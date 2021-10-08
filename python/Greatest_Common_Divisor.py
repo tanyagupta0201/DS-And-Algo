@@ -1,3 +1,6 @@
+#Author: Shantanu Sharma
+#Date Modified: 8th October 2021
+
 def gcd (x, y):  
     if (y == 0):   
         return x   
