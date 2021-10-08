@@ -1,8 +1,12 @@
+/*
+Insertion in Linked List
+Author: Shradha Verma
+Date Modified: 8th October 2021
+*/
+
 #include <iostream>
 
 using namespace std;
-//  If we wish to change the value of a variable by a function, we pass pointer to it. 
-// And if we wish to change value of a pointer (i. e., it should start pointing to something else), we pass pointer to a pointer.
 class Node
 {
     public:
