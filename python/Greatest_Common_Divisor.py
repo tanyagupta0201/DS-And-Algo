@@ -3,8 +3,8 @@ def gcd (x, y):
         return x   
     else:  
         return gcd (y, x % y)  
-x =int (input ("Enter the first number: "))    
-y =int (input ("Enter the second number: "))    
+x = int (input ("Enter the first number: "))    
+y = int (input ("Enter the second number: "))    
 num = gcd(x, y)  
 print("GCD of two number is: ")  
 print(num)  
