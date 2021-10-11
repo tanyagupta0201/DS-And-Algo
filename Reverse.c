@@ -1,3 +1,8 @@
+/*
+reverse number
+Author's name-pinto kumar
+Data modified-11/10/2021
+*/
 #include<stdio.h>
 int main{
   int num,rev=0,rem;
