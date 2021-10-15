@@ -1,5 +1,5 @@
-//Priyanshu Kashyap
-//15/10/2021
+/* Author:- Priyanshu Kashyap
+Date Modified :- 15/10/2021*/
 #include <bits/stdc++.h>
 using namespace std;
 
