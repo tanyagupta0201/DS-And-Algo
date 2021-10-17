@@ -1,4 +1,6 @@
 //optimal merge pattern
+//Author: Neetu Kumari
+//Date modified: 17/10/2021
 
 #include<bits/stdc++.h>
 using namespace std;
