@@ -1,3 +1,8 @@
+/*cpp program for Balanced Paranthesis
+Author:Neetu Kumari
+Date Modified:18-10-2021
+*/
+
 #include<iostream>
 #include<stack>
 using namespace std;
