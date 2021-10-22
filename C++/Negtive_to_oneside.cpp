@@ -9,7 +9,7 @@ Two Pointer Approach: The idea is to solve this problem with constant space and 
 1.Check If the left and right pointer elements are negative then simply increment the left pointer.
 2.Otherwise, if the left element is positive and the right element is negative then simply swap the elements, and simultaneously increment and decrement the left and right pointers.
 3.Else if the left element is positive and the right element is also positive then simply decrement the right pointer.
-4.Repeat the above 3 steps until the left pointer ≤ right pointer.*/
+4.Repeat the above 3 steps until the left pointer≤right pointer.*/
 
 /*Author:Rashmi Singh
 Date Modified:22/10/2021*/
