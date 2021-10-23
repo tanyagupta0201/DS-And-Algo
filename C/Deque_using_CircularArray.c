@@ -19,7 +19,7 @@ int main(void)
 	int ch;
     while(1)
     {
-	printf("Double Ended Queue Operations:\n");
+	printf("\nDouble Ended Queue Operations:\n");
 	printf("1.Enqueue from front\n");
 	printf("2.Enqueue from rear\n");
 	printf("3.Dequeue from front\n");
