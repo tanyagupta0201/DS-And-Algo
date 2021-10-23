@@ -1,3 +1,8 @@
+/*
+Program to solve the Knapsack problem using DP
+Author: Saurabh Pandey
+Date Modified: 23rd October 2021
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
