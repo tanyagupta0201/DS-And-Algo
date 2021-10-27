@@ -1,3 +1,6 @@
+/** Author's Name : VIDUSHI BHATNAGAR
+Date modified : 27/10/2021
+**/
 #include <stdio.h>
 void shellsort(int arr[], int num)
 {
