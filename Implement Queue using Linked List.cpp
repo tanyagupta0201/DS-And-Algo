@@ -1,6 +1,8 @@
 /*
 
  * C++ Program to Implement Queue using Linked List
+Author : Shobha Kumari
+Date modified : 29th October 2021
 
  */
 
