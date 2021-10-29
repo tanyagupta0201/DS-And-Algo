@@ -1,3 +1,8 @@
+/*Program to reverse a number
+Author: Shobha Kumari
+Date Modified: 29th October 2021
+*/
+
 #include <iostream>
 
 using namespace std;
