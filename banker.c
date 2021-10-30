@@ -1,3 +1,8 @@
+/*
+Deletion in Linked List
+Author: PRINCE CHANDAPILLAI
+Date Modified: 30th October 2021
+*/
 #include <stdio.h>
 void main()
 {
