@@ -1,3 +1,5 @@
+//C PROGRAM TO DO CIRCULAR LINKED LIST OPRERATIONS
+// CONTRIBUTION FROM ARUN KARTHI AND BALAJI
 #include<stdio.h>
 #include<stdlib.h>
 struct node{
@@ -149,7 +151,7 @@ int main(){
     display();
     do{
     printf("\n1.insert_beg.\n2.insert_middle\n3.insert_last");
-     printf("1.delete_beg.\n2.delete_middle\n3.delete_last");
+     printf("4.delete_beg.\n5.delete_middle\n6.delete_last");
     printf("\nEnter the choice:");
     scanf("%d",&choice);
     switch(choice){
@@ -177,5 +179,40 @@ int main(){
     scanf("%d",&press);
     }while(press==1);
 }
+/* OUTPUT
+Enter the number of node:3
+enter the data 1
+enter the data 2
+enter the data 3
+-->1-->2-->3
+1.insert_beg.
+2.insert_middle
+3.insert_last4.delete_beg.
+5.delete_middle
+6.delete_last
+Enter the choice:1
+Enter the data to insert:7
+-->7-->1-->2-->3
+Do you want to continue press 1:1
+
+1.insert_beg.
+2.insert_middle
+3.insert_last4.delete_beg.
+5.delete_middle
+6.delete_last
+Enter the choice:6
+-->7-->1-->2
+Do you want to continue press 1:1
+
+1.insert_beg.
+2.insert_middle
+3.insert_last4.delete_beg.
+5.delete_middle
+6.delete_last
+Enter the choice:2
+Enter the data to insert:8
+enter the data to insert after7
+-->7-->8-->1-->2
+Do you want to continue press 1:0*/
 
 
