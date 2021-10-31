@@ -151,7 +151,7 @@ int main(){
     display();
     do{
     printf("\n1.insert_beg.\n2.insert_middle\n3.insert_last");
-     printf("4.delete_beg.\n5.delete_middle\n6.delete_last");
+     printf("\n4.delete_beg.\n5.delete_middle\n6.delete_last");
     printf("\nEnter the choice:");
     scanf("%d",&choice);
     switch(choice){
@@ -187,7 +187,8 @@ enter the data 3
 -->1-->2-->3
 1.insert_beg.
 2.insert_middle
-3.insert_last4.delete_beg.
+3.insert_last
+4.delete_beg.
 5.delete_middle
 6.delete_last
 Enter the choice:1
@@ -197,7 +198,8 @@ Do you want to continue press 1:1
 
 1.insert_beg.
 2.insert_middle
-3.insert_last4.delete_beg.
+3.insert_last
+4.delete_beg.
 5.delete_middle
 6.delete_last
 Enter the choice:6
@@ -206,7 +208,8 @@ Do you want to continue press 1:1
 
 1.insert_beg.
 2.insert_middle
-3.insert_last4.delete_beg.
+3.insert_last
+4.delete_beg.
 5.delete_middle
 6.delete_last
 Enter the choice:2
