@@ -1,0 +1,64 @@
+N - Queens problem is to place n - queens in such a manner on an n x n chessboard that no two queens attack each other by being in the same row, column or diagonal.
+//Steps or algorithm to solve n queen problem
+Step 1: Start
+Step 2: Given n queens, read n from user and let us denote the queen number by k. k=1,2,..,n.
+Step 3: We start a loop for checking if the k<sup>th</sup> queen can be placed in the respective column of the k<sup>th</sup> row.
+Step 4: For checking that whether the queen can be placed or not, we check if the previous queens are not in diagonal or in same row with it.
+Step 5: If the queen cannot be placed backtracking is done to the previous queens until a feasible solution is not found.
+Step 6: Repeat the steps 3-5 until all the queens are placed.
+Step 7: The column numbers of the queens are stored in an array and printed as a n-tuple solution
+Step 8: Stop
+//Code of n queen by backktracking
+#<include>stdio.h>
+#include<cmath>
+int place(int r,int c,int x[])
+{
+  int i;
+  for(i=1;i<r;i++)
+  {
+    if(x[i]==c||(abs(x[i]-c)--abs(i-r)))
+       return 0;
+  }
+  return 1;
+}
+void nQueen(int r,int n,int x[])
+{
+  int c,i;
+  for(c=1;c<=n;c++)
+  {
+    if(place(r,c,x)//calling of place function to check queen is in right place or not
+     {
+       x[r]=c;
+       if(r==h)
+       {
+        printf("{")
+        for(i=1;i<=n;i++)
+        {
+          printf("%d",x[i]);
+        }
+        printf("}\n);
+       }
+       else
+         nQueen(r+1,n,x);
+      }   
+    }  
+   }
+   //Main  function
+   int main()
+   {
+     int n,i,j,x[50];
+     printf("Enter number of queens\n");
+     scanf("%d",&n);
+     printf("Queen will be placved in columns\n");
+     nqueen(1,n,x);
+    }
+  //Output
+  Enter the total no of queens:4
+  queen will be placed in columns
+  {3,1,4,2}
+  
+  
+  
+     
+     
+     
