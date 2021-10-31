@@ -1,6 +1,10 @@
+/*
+Name of the author - AATARSH K.M
+date modified - 30/10/2021
+ */
 #include<stdio.h>
 #include<stdlib.h>
-struct node //AATARSH K.M 31-10-2021
+struct node 
 {
 int data;
 struct node *next;
@@ -103,3 +107,22 @@ top=top->next;
 
 }
 }
+/*
+OUTPUT
+1 - Push
+ 2 - Pop
+ 3- Dipslay
+ Enter choice :1
+enter the data2
+
+ Enter choice :1
+enter the data3
+
+ Enter choice :1
+enter the data4
+
+ Enter choice :2
+
+ Popped value : 4
+ Enter choice :3
+3 2  */
