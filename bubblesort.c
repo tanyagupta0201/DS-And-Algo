@@ -1,3 +1,8 @@
+/*Author : BRINDHA.V
+  Date modified : 31.10.2021
+*/
+
+
 #include <stdio.h>
 void bubblesort(int arr[], int size)
 {
@@ -35,3 +40,17 @@ int main()
     return 0;
  
 }
+/*OUTPUT:
+
+How many numbers you want to sort:  4
+
+Enter 4 numbers : 4
+3
+2
+1
+
+Sorted array is  1  2  3  4 
+
+...Program finished with exit code 0
+Press ENTER to exit console.
+*/
