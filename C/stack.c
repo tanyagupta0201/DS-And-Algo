@@ -1,6 +1,6 @@
 /*
 Name of the author - AATARSH K.M
-date modified - 30/10/2021
+date modified - 31/10/2021
  */
 #include<stdio.h>
 #include<stdlib.h>
