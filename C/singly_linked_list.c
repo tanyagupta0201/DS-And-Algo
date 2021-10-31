@@ -1,8 +1,8 @@
 /*
-Name of the author - Yashmi Kumarasiri
-date modified - 30/10/2021
+Name of the author - Aadish
+date modified - 31/10/2021
  */ 
-
+/* This program is for performing singly linked list operations*/
 
 
 
