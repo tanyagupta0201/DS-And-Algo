@@ -1,0 +1,26 @@
+/*
+reverse number
+Author's name-AAKHILA HAYATHUNISA M
+Data modified-31/10/2021
+*/
+
+#include<stdio.h>
+
+int main()
+
+{
+  int num, rev = 0, rem, count =0;
+  printf("enter a number:");
+  scanf("%d", & num);
+  int temp = num;
+  while (num != 0) {
+  count = count+1;
+    rem = num % 10;
+    rev = rev * 10 + rem;
+    num = num / 10;
+  }
+
+  printf("the number of digits in %d is:%d", temp, count);
+  return 0;
+
+}
