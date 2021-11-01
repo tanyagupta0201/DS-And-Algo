@@ -1,3 +1,6 @@
+//program to find n prime numbers 
+//by aravindh s
+//date modified 31/10/21
 #include<stdio.h>  
 int main()
 {    
@@ -26,3 +29,8 @@ for(i=2;i<=100;i++)
     count=0;
 } 
 }
+/* output:
+prime number calculation
+Enter the number to find how many prime number:7
+2 3 5 7 11 13 17 
+*/
