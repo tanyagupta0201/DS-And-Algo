@@ -1,3 +1,6 @@
+// program to do queue using linked list
+//contributed by afeef thameem
+//date modified 1/11/21
 #include <stdio.h>
 #include <stdlib.h>
 struct node
@@ -76,3 +79,50 @@ void display()
         temp=temp->next;
     }
 }
+/*
+output:
+
+1.Enqueue
+2.Dequeue 
+3.Display 
+4.End
+1
+Enter data:5
+
+1.Enqueue 
+2.Dequeue 
+3.Display 
+4.End
+1
+Enter data:4
+
+1.Enqueue 
+2.Dequeue 
+3.Display 
+4.End
+3
+Queue :
+5
+4
+
+1.Enqueue 
+2.Dequeue 
+3.Display 
+4.End
+2
+ dequeued element =5
+
+1.Enqueue 
+2.Dequeue 
+3.Display 
+4.End
+4 3
+Queue :
+4
+
+1.Enqueue 
+2.Dequeue 
+3.Display 
+4.End
+4
+*/
