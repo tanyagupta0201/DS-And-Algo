@@ -116,7 +116,6 @@ Queue :
 2.Dequeue 
 3.Display 
 4.End
-4 3
 Queue :
 4
 
